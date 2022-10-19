@@ -69,9 +69,20 @@ const Formulario = () => {
           >
             Sintomas
           </label>
-          <textarea name=""  className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md" placeholder="Describa los Sintomas" id="sintomas" cols="30" rows="10"/>
+          <textarea
+            name=""
+            className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+            placeholder="Describa los Sintomas"
+            id="sintomas"
+            cols="30"
+            rows="10"
+          />
         </div>
-        <input type="submit" className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-colors" value='Agregar Paciente' />
+        <input
+          type="submit"
+          className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-colors"
+          value="Agregar Paciente"
+        />
       </form>
     </div>
   );
