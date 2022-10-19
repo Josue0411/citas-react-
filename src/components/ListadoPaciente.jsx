@@ -1,5 +1,9 @@
 const ListadoPaciente = () => {
-  return <h2>Listado pacientes</h2>;
+  return (
+    <div className="w-1/2 lg:w-3/5">
+      <h2>Listado pacientes</h2>
+    </div>
+  )
 };
 
 export default ListadoPaciente;
