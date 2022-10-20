@@ -9,8 +9,12 @@ const ListadoPaciente = ({ pacientes }) => {
         Administra tus {""}
         <span className="text-indigo-600 font-bold">Pacientes y Citas</span>
       </p>
-
-      <Paciente />
+      {pacientes.map(paciente=>
+         <Paciente paciente={paciente} />
+      
+        // <Paciente paciente={paciente} />
+    )}
+     
     </div>
   );
 };
